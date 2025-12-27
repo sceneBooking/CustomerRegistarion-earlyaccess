@@ -263,7 +263,7 @@
     <h2 class="form-title">Customer Registration</h2>
 <p>Help us curate better experiences for you in your city!</p>
 
-<form id="customerForm" method="POST" action="https://script.google.com/macros/s/AKfycbzFEzY4SbNpTPtYUt77R1meWrvsGNPBZKHoCg2fXZL2VJ3RRXKpkM6pm1F50he_76t2kg/exec">
+<form id="customerForm" method="POST" action="https://script.google.com/macros/s/AKfycby5dDSDgB0u_NZXBdEFsBCWcqLNmIaGhplFnvMZqRYn8drFGQ8s4hR12pL1BVcVMe3C/exec">
   
   <label>Name</label>
   <input type="text" name="name" class="first-name" placeholder="Enter your full name" required style="width: 100%;"/>
@@ -297,7 +297,7 @@ document.getElementById('customerForm').addEventListener('submit', async functio
   const formData = new FormData(this);
 
   try {
-    const response = await fetch("https://script.google.com/macros/s/AKfycbzFEzY4SbNpTPtYUt77R1meWrvsGNPBZKHoCg2fXZL2VJ3RRXKpkM6pm1F50he_76t2kg/exec", {
+    const response = await fetch("https://script.google.com/macros/s/AKfycby5dDSDgB0u_NZXBdEFsBCWcqLNmIaGhplFnvMZqRYn8drFGQ8s4hR12pL1BVcVMe3C/exec", {
       method: "POST",
       body: formData
     });
